@@ -4,7 +4,7 @@ mongoose.connect('mongodb+srv://user:user@cluster0.lcji4ad.mongodb.net/Demo?retr
   useNewUrlParser:true,
   useUnifiedTopology:true
 })
-mongoose.connect(url)
+//mongoose.connect(url)
 const db = mongoose.connection
 console.log("Successfully connected to mongodb database")
 module.exports = db
